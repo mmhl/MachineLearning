@@ -1,9 +1,14 @@
 /**
   * Created by mhl on 03.02.16.
   */
-import utls._
+
+import javax.script.ScriptEngineManager
+
 object Main {
-  def main(args: Array[String]) {
-    SessionLoader.load("/home/mhl/Sources/MachineLearning/src/main/resources/table.csv")
+  def main(args: Array[String]): Unit = {
+    val sem = new ScriptEngineManager
+    val engine = sem.getEngineByName("nashorn")
+    engine.eval("function hello(){print('Hello');}")
+    engine.eval("hello();")
   }
 }

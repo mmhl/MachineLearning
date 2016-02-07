@@ -29,6 +29,7 @@
           <root url="jar://$USER_HOME$/.sbt/boot/scala-2.10.4/org.scala-sbt/sbt/0.13.8/quasiquotes_2.10-2.0.1.jar!/" />
           <root url="jar://$USER_HOME$/.sbt/boot/scala-2.10.4/org.scala-sbt/sbt/0.13.8/incremental-compiler-0.13.8.jar!/" />
           <root url="jar://$USER_HOME$/.sbt/boot/scala-2.10.4/org.scala-sbt/sbt/0.13.8/jsch-0.1.46.jar!/" />
+          <root url="jar://$USER_HOME$/.ivy2/cache/org.jsoup/jsoup/jars/jsoup-1.8.3.jar!/" />
           <root url="jar://$USER_HOME$/.sbt/boot/scala-2.10.4/org.scala-sbt/sbt/0.13.8/process-0.13.8.jar!/" />
           <root url="jar://$USER_HOME$/.sbt/boot/scala-2.10.4/org.scala-sbt/sbt/0.13.8/io-0.13.8.jar!/" />
           <root url="jar://$USER_HOME$/.sbt/boot/scala-2.10.4/org.scala-sbt/sbt/0.13.8/compiler-integration-0.13.8.jar!/" />
@@ -110,6 +111,7 @@
           <root url="jar://$USER_HOME$/.ivy2/cache/org.scala-sbt/api/srcs/api-0.13.8-sources.jar!/" />
           <root url="jar://$USER_HOME$/.ivy2/cache/org.scala-sbt/task-system/srcs/task-system-0.13.8-sources.jar!/" />
           <root url="jar://$USER_HOME$/.ivy2/cache/org.scala-sbt/control/srcs/control-0.13.8-sources.jar!/" />
+          <root url="jar://$USER_HOME$/.ivy2/cache/org.jsoup/jsoup/srcs/jsoup-1.8.3-sources.jar!/" />
           <root url="jar://$USER_HOME$/.ivy2/cache/org.scala-sbt/sbt/srcs/sbt-0.13.8-sources.jar!/" />
           <root url="jar://$USER_HOME$/.ivy2/cache/org.scala-sbt/io/srcs/io-0.13.8-sources.jar!/" />
           <root url="jar://$USER_HOME$/.ivy2/cache/org.scala-sbt/tracking/srcs/tracking-0.13.8-sources.jar!/" />
