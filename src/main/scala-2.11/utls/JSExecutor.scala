@@ -1,6 +1,6 @@
 package utls
 
-import javax.script.{Invocable, ScriptContext, ScriptEngineManager, SimpleBindings}
+import javax.script.{Invocable, ScriptContext, ScriptEngineManager}
 
 /**
   * Created by mhl on 09.02.16.
@@ -25,7 +25,6 @@ class JSExecutor {
   }
 
   def addBinding(name: String, value: Object): Unit = {
-    val binding: SimpleBindings = new SimpleBindings()
     val bindings = engine.getBindings(ScriptContext.ENGINE_SCOPE)
     bindings.put(name, value)
     engine.setBindings(bindings, ScriptContext.ENGINE_SCOPE)
